@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.form-floating > label {
+    left: unset;
+}
+.floatingInput-loading {
+    right: 0px;
+}
+
+
+.form-floating[disabled] {
+    background: #dddddd;
+}
+.error-validate {
+    color: #ff3e1d
+}
+
